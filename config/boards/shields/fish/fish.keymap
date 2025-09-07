@@ -119,7 +119,7 @@
         layer_navi {
             bindings = <
                         &kp LPAR    &kp DQT     &kp RPAR    &kp AMPS            &kp C_VOL_UP &kp ESC    &kp UP      &kp CAPS    
-&kp AT      &kp HASH    &kp LC(A)   &kp SQT     &kp RBRC    &kp PIPE            &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp PSCRN  
+&kp AT      &kp HASH    &kp SQT     &kp LC(A)   &kp RBRC    &kp PIPE            &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp PSCRN  
             &kp LC(Z)   &kp LBRC    &kp LC(C)   &kp LC(V)                                   &kp LS(LC(Z)) &kp LS(RET) &kp RC(GT) &kp C_BRI_DN 
                                                 &lt 6 BSPC  &trans              &trans      &none       
             >;
