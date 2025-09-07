@@ -119,8 +119,8 @@
         layer_navi {
             bindings = <
                         &kp LPAR    &kp DQT     &kp RPAR    &kp AMPS            &kp C_VOL_UP &kp ESC    &kp UP      &kp CAPS    
-&kp AT      &kp HASH    &kp SQT     &kp LC(A)   &kp RBRC    &kp PIPE            &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp PSCRN  
-            &kp LC(Z)   &kp LBRC    &kp LC(C)   &kp LC(V)                                   &kp LS(LC(Z)) &kp LS(RET) &kp RC(GT) &kp C_BRI_DN 
+&kp AT      &kp HASH    &kp LBRC    &kp LC(A)   &kp RBRC    &kp PIPE            &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp PSCRN  
+            &kp LC(Z)   &kp SQT     &kp LC(C)   &kp LC(V)                                   &kp LS(LC(Z)) &kp LS(RET) &kp RC(GT) &kp C_BRI_DN 
                                                 &lt 6 BSPC  &trans              &trans      &none       
             >;
         };
@@ -154,8 +154,8 @@
 
         layer_system {
             bindings = <
-                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &tog 3      &kp INS     &kp HOME    &kp PG_UP   
-&kp F1      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp F6          &kp F7      &kp DEL     &kp END     &kp PG_DN   &kp K_APP   &kp F12     
+                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &tog 3      &kp INS     &kp UP      &kp PG_UP   
+&kp F1      &bt BT_SEL 0 &bt BT_SEL 1 &kp BSPC  &kp DEL     &kp F6              &kp F7      &kp LEFT    &kp DOWN    &kp RIGHT   &kp K_APP   &kp F12     
             &kp F2      &kp F3      &kp F4      &kp F5                                      &kp F8      &kp F9      &kp F10     &kp F11     
                                                 &none       &none               &none       &none       
             >;
