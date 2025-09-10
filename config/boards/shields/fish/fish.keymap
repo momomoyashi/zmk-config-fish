@@ -109,18 +109,18 @@
 
         layer_math {
             bindings = <
-                        &kp N1      &kp N2      &kp N3      &trans              &kp UNDER   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &mt RSHFT COLON &kp PLUS &mt RALT MINUS &mt RGUI DQT &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
+                        &kp N1      &kp N2      &kp N3      &trans              &kp EQUAL   &kp LT      &kp UNDER   &kp GT      
+&kp PLUS    &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp LS(INT1) &mt RSHFT COLON &mt RALT MINUS &mt RGUI DQT &kp FSLH &kp PRCNT 
+            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp SQT     &kp SEMI    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
 
         layer_navi {
             bindings = <
-                        &kp LBRC    &kp DQT     &kp RBRC    &kp F10             &kp GT      &kp ESC     &kp UP      &kp LS(CAPS) 
-&kp AMPS    &kp HASH    &mt LSHFT LPAR &kp LC(A) &kp RPAR   &kp F7              &kp AT      &kp LEFT    &kp DOWN    &kp RIGHT   &kp F10     &kp PSCRN   
-            &kp LC(Z)   &kp UNDER   &kp LC(C)   &kp LC(V)                                   &kp LC(LS(X)) &kp LS(RET) &kp LC(LS(L)) &kp F7  
+                        &kp RBKT    &kp AT      &kp NUHS    &kp F10             &kp GT      &kp ESC     &kp UP      &kp LS(CAPS) 
+&kp LBKT    &kp HASH    &mt LGUI STAR &kp LC(A) &mt LSHFT LPAR &kp F7           &none       &kp LEFT    &kp DOWN    &kp RIGHT   &kp F10     &kp PSCRN   
+            &kp LC(Z)   &kp RBRC    &kp LC(C)   &kp LC(V)                                   &kp LC(LS(X)) &kp LC(RET) &kp LC(LS(L)) &kp F7  
                                                 &lt 6 BSPC  &trans              &trans      &none       
             >;
         };
