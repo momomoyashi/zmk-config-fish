@@ -106,7 +106,7 @@
         layer_keymap {
             bindings = <
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &mt LSHFT I &mt LALT A  &mt LGUI O  &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
+&kp Q       &kp E       &mt LSHFT I &mt LALT A  &mt LGUI O  &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &kp S       &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
                                                 &lt 1 BSPC  &lt 2 RET           &mt RCTRL TAB &lt 2 SPACE 
             >;
