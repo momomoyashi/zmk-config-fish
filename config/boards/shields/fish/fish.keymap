@@ -105,8 +105,8 @@
 
         layer_keymap {
             bindings = <
-                        &mt LSHFT L &kp U       &mt LGUI F  &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &kp I       &kp A       &kp O       &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
+                        &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
+&kp Q       &kp E       &mt LSHFT I &mt LALT A  &mt LGUI O  &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
                                                 &lt 1 BSPC  &mt LCTRL RET       &mt RCTRL TAB &lt 2 SPACE 
             >;
@@ -114,18 +114,18 @@
 
         layer_math {
             bindings = <
-                        &kp N1      &kp N2      &kp N3      &kp LS(SPACE)       &kp CARET   &kp LT      &kp EQUAL   &kp GT      
+                        &kp N1      &kp N2      &kp N3      &kp PIPE2           &kp CARET   &kp LT      &kp EQUAL   &kp GT      
 &kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp UNDER   &kp FSLH    &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp PRCNT 
             &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
-                                                &none       &trans              &trans      &lt 6 SPACE 
+                                                &none       &trans              &trans      &kp LS(SPACE) 
             >;
         };
 
         layer_navi {
             bindings = <
-                        &kp LBKT    &kp DQT     &kp RBKT    &kp F10             &kp GT      &kp ESC     &kp UP      &kp CAPS    
-&kp AMPS    &kp COLON   &kp LG(FSLH) &kp LC(RET) &kp LC(LS(X)) &kp F7           &kp AT      &kp LEFT    &kp DOWN    &kp RIGHT   &kp LC(BSPC) &kp PSCRN  
-            &kp AT      &mt LCTRL LPAR &kp LS(LC(L)) &mt LSHFT RPAR                         &kp LC(Z)   &kp LC(C)   &kp LC(V)   &kp LC(A)   
+                        &mt LCTRL LPAR &kp DQT  &mt LSHFT RPAR &kp F10          &kp GT      &kp ESC     &kp UP      &kp CAPS    
+&kp AMPS    &kp LC(Y)   &kp LG(FSLH) &kp LC(RET) &kp LC(LS(X)) &kp F7           &kp AT      &kp LEFT    &kp DOWN    &kp RIGHT   &kp COLON   &kp PSCRN   
+            &kp LC(Z)   &kp LC(C)   &kp LC(V)   &kp LC(A)                                   &kp F2      &kp LS(LC(L)) &kp LBKT  &kp RBKT    
                                                 &lt 6 BSPC  &trans              &trans      &none       
             >;
         };
