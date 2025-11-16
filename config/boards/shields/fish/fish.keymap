@@ -126,7 +126,7 @@
                         &mt LCTRL LPAR &kp DQT  &mt LSHFT RPAR &kp F10          &kp GT      &kp ESC     &kp UP      &kp CAPS    
 &kp AMPS    &kp LC(Y)   &kp LG(FSLH) &kp LC(RET) &kp LC(LS(X)) &kp F7           &kp AT      &kp LEFT    &kp DOWN    &kp RIGHT   &kp COLON   &kp PSCRN   
             &kp LC(Z)   &kp LC(C)   &kp LC(V)   &kp LC(A)                                   &kp F2      &kp LS(LC(L)) &kp LBKT  &kp RBKT    
-                                                &lt 6 BSPC  &trans              &trans      &none       
+                                                &lt 6 BSPC  &none               &trans      &none       
             >;
         };
 
