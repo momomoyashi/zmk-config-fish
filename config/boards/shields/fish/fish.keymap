@@ -117,7 +117,7 @@
                         &kp N1      &kp N2      &kp N3      &kp UNDER           &kp EXCL    &kp LT      &kp EQUAL   &kp GT      
 &kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp QMARK   &kp FSLH    &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp PRCNT 
             &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp LPAR    &kp COLON   &kp RPAR    &kp PIPE    
-                                                &none       &trans              &trans      &lt 6 SPACE 
+                                                &lt 6 SPACE &kp BSPC            &trans      &none       
             >;
         };
 
@@ -126,7 +126,7 @@
                         &kp LC(LS(X)) &kp LG(FSLH) &kp LC(RET) &kp F10          &kp GT      &kp ESC     &kp UP      &kp CAPS    
 &kp AMPS    &kp DQT     &kp LC(A)   &kp LC(V)   &kp LC(C)   &kp F7              &kp AT      &kp LEFT    &kp DOWN    &kp RIGHT   &kp COLON   &kp PSCRN   
             &mt LCTRL LPAR &mt LSHFT RPAR &kp LC(Y) &kp LC(Z)                               &kp F2      &kp LS(LC(L)) &kp LBKT  &kp RBKT    
-                                                &lt 6 BSPC  &none               &trans      &none       
+                                                &none       &none               &kp BSPC    &lt 6 BSPC  
             >;
         };
 
