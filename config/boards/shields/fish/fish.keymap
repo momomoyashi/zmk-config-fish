@@ -80,7 +80,7 @@
         };
 
         combo_ls_space {
-            key-positions = <11 16>;
+            key-positions = <24 25>;
             bindings = <&kp LS(SPACE)>;
         };
 
@@ -108,7 +108,7 @@
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
 &kp Q       &kp E       &mt LSHFT I &mt LALT A  &mt LGUI O  &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &kp S       &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 BSPC  &lt 2 RET           &mt RCTRL TAB &lt 2 SPACE 
+                                                &lt 2 BSPC  &mt LCTRL RET       &mt RCTRL TAB &lt 1 SPACE 
             >;
         };
 
@@ -117,7 +117,7 @@
                         &kp N1      &kp N2      &kp N3      &kp UNDER           &kp EXCL    &kp LT      &kp EQUAL   &kp GT      
 &kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp QMARK   &kp FSLH    &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp PRCNT 
             &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp LPAR    &kp COLON   &kp RPAR    &kp PIPE    
-                                                &none       &trans              &trans      &kp LS(SPACE) 
+                                                &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
 
