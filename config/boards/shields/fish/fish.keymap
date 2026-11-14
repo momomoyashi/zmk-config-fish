@@ -98,6 +98,16 @@
             key-positions = <22 23>;
             bindings = <&kp LC(Z)>;
         };
+
+        combo_out_usb {
+            key-positions = <5 6>;
+            bindings = <&out OUT_USB>;
+        };
+
+        combo_lc_ls_m {
+            key-positions = <1 2>;
+            bindings = <&kp LC(LS(M))>;
+        };
     };
     
 
