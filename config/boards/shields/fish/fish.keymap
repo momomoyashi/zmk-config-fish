@@ -69,11 +69,6 @@
             bindings = <&kp LANG2>;
         };
 
-        combo_la_ls_kp_num {
-            key-positions = <10 11>;
-            bindings = <&kp LA(LS(KP_NUM))>;
-        };
-
         combo_lang1 {
             key-positions = <15 16>;
             bindings = <&kp LANG1>;
@@ -110,13 +105,8 @@
         };
 
         combo_lc_ls_m {
-            key-positions = <5 6>;
-            bindings = <&kp LC(LS(M))>;
-        };
-
-        combo_ls_la_kp_num {
             key-positions = <1 2>;
-            bindings = <&kp LS(LA(KP_NUM))>;
+            bindings = <&kp LC(LS(M))>;
         };
     };
     
